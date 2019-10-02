@@ -1,0 +1,105 @@
+input, form, h1, h2, h3, h4, h5, h6, p, pre, li, ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+color:rgb(89,116,0);
+}
+.admin-panel-bg {
+	background-color: #f6f8f1;
+}
+
+.green-bar-left {
+	background-image: url(../../images/admin/green-bar-left.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 30px;
+	width: 11px;
+	float: left;
+}
+.green-bar-center {
+	background-image: url(../../images/admin/green-bar-center.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 30px;
+	width: 728px;
+	float: left;
+	font-family: "Trebuchet MS", Verdana, Arial;
+	color: #597400;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+	text-decoration: none;
+	text-shadow: -1px 0 #afdc1d, 0 1px #bdf709,
+      1px 0 #bdf709, 0 -1px #afdc1d
+}
+.green-bar-right{
+	background-image: url(../../images/admin/green-bar-right.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 30px;
+	width: 11px;
+	float: left;
+}
+.light-orange-stripe {
+	background-color: #ffebaf;
+	font-family: Tahoma, Vedana, Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+	height: 23px;
+	width: 683px;
+	line-height: 23px;
+	margin-top: 1px;
+}
+.dark-orange-stripe {
+	background-color: rgb(255,225,136);
+	font-family: Tahoma, Vedana, Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+	height: 23px;
+	width: 683px;
+	line-height: 23px;
+	margin-top: 1px;
+}
+
+.footer
+{
+	background-color: #ffd23c;
+	font-family: Tahoma, Vedana, Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #222;
+	padding:10px 0 10px 10px;
+	text-align:left;
+	float:left;
+	width:740px;
+}
+
+.heading
+{
+	padding:10px;
+	font-size:16px;
+	color:#222;
+}
+
+
+.headerLinks
+{
+	font-size:12px;
+}
+
+.active
+{
+	font-weight:bold;
+	background-image: url(../../images/admin/green-bar-right.png);
+	padding:7px 5px;
+}
+#error{
+	color:#A80000;
+	font-size:14px;
+}
